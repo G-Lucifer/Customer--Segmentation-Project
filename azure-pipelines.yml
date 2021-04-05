@@ -12,8 +12,14 @@ pool:
 steps:
 - script: 'cd C:\Users\Tushar\Desktop\major-projecr\Customer--Segmentation-Project'
   displayName: 'Cd to MP'
-
-- script: |
-    cat .\Major_Project.html > C:\inetpub\wwwroot\iisstart.htm
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+      # Write your PowerShell commands here.
+      
+      cat .\Major_Project.html > C:\inetpub\wwwroot\iisstart.htm
+# - script: |
+#     cat .\Major_Project.html > C:\inetpub\wwwroot\iisstart.htm
     
  
