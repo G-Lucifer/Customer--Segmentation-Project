@@ -20,12 +20,5 @@ steps:
       
       cat .\Major_Project.html > C:\inetpub\wwwroot\iisstart.htm
 # - script: |
-#     cat .\Major_Project.html > C:\inetpub\wwwroot\iisstart.htm
-- task: IISWebAppManagementOnMachineGroup@0
-  inputs:
-    IISDeploymentType: 'IISWebsite'
-    ActionIISWebsite: 'CreateOrUpdateWebsite'
-    WebsiteName: 'muditushar.tk'
-    WebsitePhysicalPath: '%SystemDrive%\inetpub\wwwroot'
-    WebsitePhysicalPathAuth: 'WebsiteUserPassThrough'
+#     cat .\Major_Project.html > C:\inetpub\wwwroot\iisstart.htm'
  
