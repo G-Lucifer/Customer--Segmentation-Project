@@ -1,0 +1,19 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+pool:
+  Default
+
+steps:
+- script: 'cd C:\Users\Tushar\Desktop\major-projecr\Customer--Segmentation-Project'
+  displayName: 'Cd to MP'
+
+- script: |
+    cat .\Major_Project.html > C:\inetpub\wwwroot\iisstart.htm
+    
+ 
