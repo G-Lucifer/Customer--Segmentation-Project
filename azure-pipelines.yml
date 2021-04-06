@@ -20,6 +20,5 @@ steps:
       
       cat .\Major_Project.html > C:\inetpub\wwwroot\iisstart.htm
 # - script: |
-#     cat .\Major_Project.html > C:\inetpub\wwwroot\iisstart.htm
-    
+#     cat .\Major_Project.html > C:\inetpub\wwwroot\iisstart.htm'
  
